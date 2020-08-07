@@ -4,7 +4,7 @@
     $message = $_POST['message'];
     $phone = $_POST['number'];
 
-    $email_from = 'yap.yeasin@outlook.com';
+    $email_from = 'contact-1@gmail.com';
     
     $email_subject ="New From Submission";
     
@@ -14,7 +14,7 @@
                             "User phone: $phone.\n";
                             
 
-    $to = "yap.yeasin@gmail.com";
+    $to = "contact-2@gmail.com";
     
     $headers = "From: $email_from \r\n";
 
